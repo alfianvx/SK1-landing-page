@@ -1,0 +1,241 @@
+/* Tambahkan kode CSS kalian di file ini */
+* {
+  margin: 0;
+  padding: 0;
+  scroll-padding-top: 100px;
+}
+
+html {
+  font-family: "Inclusive Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #800606;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 253, 253);
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: rgb(206, 206, 206);
+}
+
+.btn-lang {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn-lang a.en {
+  padding: 10px;
+}
+
+.btn-lang a.in {
+  background-color: white;
+  color: #800606;
+  padding: 10px;
+}
+
+.hero {
+  height: 500px;
+  /* width: 100%; */
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.651),
+      rgba(100, 11, 11, 0.623)
+    ),
+    url(https://images.unsplash.com/photo-1680345575907-a681682260c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  color: white;
+}
+
+.hero-content {
+  width: 60%;
+}
+
+.hero-content h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.hero-content p {
+  margin-bottom: 50px;
+  line-height: 1.4;
+}
+
+.hero-content a {
+  text-decoration: none;
+  background-color: #fff;
+  color: #800606;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.hero-content a:hover {
+  background-color: #800606;
+  color: white;
+}
+
+.about {
+  padding: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  text-align: center;
+  width: 80%;
+}
+
+.about-content h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.product {
+  background-color: #5e090910;
+  padding: 70px;
+}
+
+.product h1 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.product a {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 30%;
+  text-decoration: none;
+  background-color: #800606;
+  border-radius: 13px;
+  color: white;
+  padding: 20px;
+}
+
+.product a:hover {
+  background-color: #e6d6d6;
+  color: #800606;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 50px;
+}
+
+.categories-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dddfdd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.categories-item:hover {
+  background-color: #800606;
+  color: white;
+  cursor: pointer;
+}
+
+.categories-item p {
+  margin: 30px 0;
+}
+
+/* .categories-btn {
+  text-align: center;
+  text-decoration: none;
+  background-color: #800606;
+  border-radius: 13px;
+  color: white;
+  padding: 20px;
+  margin: 20px auto;
+} */
+
+.contact {
+  width: 50%;
+  padding: 100px;
+  margin: auto;
+}
+
+.contact-form h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 13px;
+  border: 1px solid rgb(31, 27, 27);
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 10px;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  background-color: #800606;
+  color: white;
+  border-radius: 10px;
+}
+
+#warning {
+  text-align: center;
+  margin: 30px;
+}
+
+.social {
+  display: flex;
+  gap: 25px;
+}
+
+.social a {
+  color: #800606;
+  font-size: 23px;
+}
+
+#link {
+  color: #800606;
+}
+
+footer {
+  background-color: #ececec;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
